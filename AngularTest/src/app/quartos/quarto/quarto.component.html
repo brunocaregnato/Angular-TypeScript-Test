@@ -1,0 +1,13 @@
+<br>
+Quarto: {{quarto.idQuarto}}
+<div id="aa" style="display: block">
+    <li ng-repeat="quarto in quarto.fotos">
+      <img [attr.src]="quarto.fotos[0]" width="250" height="250" />
+    </li>
+  </div>
+<br>
+<p><strong>Valor quarto: R$ {{quarto.preco}} a diária</strong></p>
+
+<button id="btnDetalhes" class="btn" (click)="MostraDetalhes()"> Detalhes </button>
+
+<div class='descricaoQuarto' id="{{quarto.idQuarto}}" style="display: none">{{quarto.descricao}}</div>

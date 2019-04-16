@@ -1,0 +1,10 @@
+<p class="text-center" style="color:#d43f3a">
+    <strong>{{ hotel.nome}} </strong>
+</p>
+
+<a href="#" data-toggle="collapse">
+    <img [src]="hotel.imagem" class="img person" width="255" height="255">
+</a>
+<p>{{ hotel.descricao }}</p>
+<h5> <strong>Menor Preço: R$ {{ hotel.precoPromocional }}</strong></h5>
+<button type="button" class="btn" id="btnquarto" style="background-color:darkturquoise" (click)="passaHotelID(hotel.id)" >Visualizar Quartos</button>

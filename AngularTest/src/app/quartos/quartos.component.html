@@ -1,0 +1,11 @@
+<div class="form-group">
+    <p>Valor do quarto ou descricao: <input type="text" class="form-group" [(ngModel)]="filtroBuscaQuarto" placeholder="Digite o valor..."></p>
+</div>
+
+<div id="band" class="container text-center">
+  <div class="row">
+    <div *ngFor="let quarto of quartos | filtroBuscaQuarto : filtroBuscaQuarto " class="col-sm-4">
+        <app-quarto [quarto]="quarto"></app-quarto>
+    </div>     
+</div>
+</div>

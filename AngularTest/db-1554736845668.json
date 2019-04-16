@@ -1,0 +1,55 @@
+{
+  "hoteis": [
+    {
+      "id": 1,
+      "nome": "Hotel Orlando City",
+      "quartos": [
+        "1",
+        "2"
+      ],
+      "descricao": "Um bom hotel na beira da praia, contêm wifi e café da manhã gratuitos!",
+      "precoPromocional": 100,
+      "imagem": "./assets/hoteis/hotel1.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Hotel Orlando Beach",
+      "quartos": [
+        "1",
+        "2"
+      ],
+      "descricao": "Um ótimo hotel com piscina, wifi e café da manhã!",
+      "precoPromocional": 300,
+      "imagem": "./assets/hoteis/hotel2.jpg"
+    }
+  ],
+  "quartos": [
+    {
+      "idHotel": 1,
+      "idQuarto": 101,
+      "preco": 100,
+      "descricao": "As acomodações são divididas em quatro categorias, sendo a mais ampla delas com capacidade para quatro pessoas. Todas as unidades contam com TV LCD, ar-condicionado, frigobar, mesa de trabalho e sinal de Wi-Fi. o Hotel Atlantico Tower, o turista encontra recepção 24 horas e um terraço no topo do prédio onde ficam a sauna, a academia e a piscina com vista panorâmica da cidade. A estrutura mantém ainda um centro de eventos com salas de reunião e sala multimídia. O café da manhã é servido em sistema de bufê e está incluso na diária. No local há ainda um restaurante e um bar na cobertura. !",
+      "fotos": [
+        "../assets/quartos/quarto1.jpg"
+      ]
+    },
+    {
+      "idHotel": 2,
+      "idQuarto": 201,
+      "preco": 250,
+      "descricao": "teste",
+      "fotos": [
+        "../assets/quartos/quarto3.jpg"
+      ]
+    },
+    {
+      "idHotel": 2,
+      "idQuarto": 202,
+      "preco": 200,
+      "descricao": "As acomodações possuem ar-condicionado, aquecimento central, isolamento acústico, televisão com canais a cabo, Wi-Fi gratuito e secador de cabelos. As unidades de categoria superior contam ainda com antessala, varanda, hidromassagem e enxoval diferenciado. Os hóspedes têm à disposição salão de jogos, quadra de tênis e spa. Atividades como boliche e paintball podem ser contratadas no local. O estacionamento é cortesia, mas necessita de reserva. O centro de eventos recebe até 1500 participantes. Com sistema all-inclusive facultativo, o Bourbon Atibaia Convention & Spa Resort apresenta várias opções gastronômicas: Lobby Bar Pedra Grande, Restaurante Food Court, Manacá Pool Bar, Bungaville Bar & Grill, Cave Bistrô, Kibô Sushi Lobby Bar, Dom Gaetano Pasta & Pizza e Gelateria. ",
+      "fotos": [
+        "../assets/quartos/quarto2.jpg"
+      ]
+    }
+  ]
+}
